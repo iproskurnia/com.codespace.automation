@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import seleniumTest.pages.*;
+import seleniumTest.utils.UiMappingSingleton;
 import seleniumTest.utils.WebElementActions;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
@@ -31,6 +32,7 @@ public class SeleniumFirstLesson {
         web = new WebElementActions(driver);
         baseUrl = "http://magento-demo.lexiconn.com/";
         driver.manage().timeouts().implicitlyWait(30, SECONDS);
+        UiMappingSingleton.getInstance();
     }
 
 //    @Test
