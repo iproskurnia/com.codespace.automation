@@ -15,7 +15,6 @@ public class HomePage {
     {
         web.clickButton("homepage.myaccount.link");
     }
-
     public void clickLoginLink() {
         web.clickElement("homepage.login.link");
     }

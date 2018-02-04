@@ -33,7 +33,8 @@ public class LoginTest {
         UiMappingSingleton.getInstance();
     }
 
-    //              Test Login with empty Email and Password fields
+    /**                 Test Login with empty Email and Password fields
+     */
     @Test
     public void emptyLoginCredentialsTest() throws Exception {
         driver.get(baseUrl);
@@ -48,7 +49,9 @@ public class LoginTest {
         loginPage.getElementText("loginpage.emptypass");
     }
 
-    //          Test login with an empty Email field
+    /**          Test login with an empty Email field
+     *
+     */
     @Test
     public void emptyEmailLoginTest() throws Exception {
         driver.get(baseUrl);
