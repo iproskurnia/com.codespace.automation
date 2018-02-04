@@ -12,7 +12,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-
 /**
   That class provides static methods for getting values from UIMapping.properties and uiMapping MAP
 */
@@ -36,7 +35,6 @@ public class UiMappingSingleton {
         }
         log.info("\t** UiMappingSingleton creation time - " + (System.nanoTime() - start) + "nanoseconds **");
     }
-
 
     public static synchronized UiMappingSingleton getInstance() {
         if (uiMapping == null) {
@@ -72,7 +70,6 @@ public class UiMappingSingleton {
         return properties;
     }
 
-
     /**
      *  This method parses data from UIMapping HashMap
      *
@@ -84,11 +81,17 @@ public class UiMappingSingleton {
         String locatorValue = partsOfLocators[1];
 
         switch(locatorType){
-            case "xpath": return By.xpath(locatorValue);
-            case "cssSelector": return By.cssSelector(locatorValue);
-            case "id": return By.id(locatorValue);
-            case "className": return By.className(locatorValue);
-            default: return By.name(locatorValue);
+            case "xpath":
+                return By.xpath(locatorValue);
+            case "cssSelector":
+                return By.cssSelector(locatorValue);
+            case "id":
+                return By.id(locatorValue);
+            case "className":
+                return By.className(locatorValue);
+
+            default:
+                return By.name(locatorValue);
         }
     }
 
