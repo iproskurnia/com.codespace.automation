@@ -10,10 +10,9 @@ public class LoginTest extends BrowserFixtures{
     String password = "uytur45";
     String helloLogText = "global.success.login.hello.message";
 
-
     /**                 Test Login with empty Email and Password fields
      */
-    @Test
+    @Test(priority = 4)
     public void emptyLoginCredentialsTest() throws Exception {
         driver.get(baseUrl);
         Global global = new Global(driver);
@@ -30,7 +29,7 @@ public class LoginTest extends BrowserFixtures{
     /**          Test login with an empty Email field
      *
      */
-    @Test
+    @Test(priority = 3)
     public void emptyEmailLoginTest() throws Exception {
         driver.get(baseUrl);
         Global global = new Global(driver);
@@ -44,7 +43,7 @@ public class LoginTest extends BrowserFixtures{
 
     }
     //                                               Test login with an empty Password field
-    @Test
+    @Test(priority = 1)
     public void emptyPasswordLoginTest() throws Exception {
         driver.get(baseUrl);
         Global global = new Global(driver);
@@ -58,7 +57,7 @@ public class LoginTest extends BrowserFixtures{
     }
 
     //                                              Test login with incorrect email and password
-    @Test
+    @Test(priority = 2)
     public void nonExistUserLoginTest() throws Exception {
         driver.get(baseUrl);
         Global global = new Global(driver);
