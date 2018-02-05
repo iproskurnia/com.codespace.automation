@@ -1,5 +1,6 @@
 package seleniumTest.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import seleniumTest.pages.Global;
 import seleniumTest.pages.RegistrationPage;
@@ -26,9 +27,6 @@ public class RegistrationTest extends BrowserFixtures{
         registrationPage.enterRegPassword("testtest");
         registrationPage.confirmRegPassword("testtest");
         registrationPage.clickRegisterButton();
-        registrationPage.getElementText(helloRegMessage);
-
+        Assert.assertTrue(true, "Thank you for registering with Madison Island.");
     }
-
-
 }
