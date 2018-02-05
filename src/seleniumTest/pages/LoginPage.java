@@ -5,7 +5,7 @@ import seleniumTest.utils.WebElementActions;
 
 public class LoginPage {
 
-    WebElementActions web;
+    private WebElementActions web;
 
     public LoginPage(WebDriver driver) {
         web = new WebElementActions(driver);

@@ -4,7 +4,7 @@ import seleniumTest.utils.WebElementActions;
 
 public class ProductDetailsPage {
 
-    WebElementActions web;
+    private WebElementActions web;
 
     public ProductDetailsPage(WebDriver driver) {
 

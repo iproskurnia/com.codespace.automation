@@ -4,7 +4,7 @@ import seleniumTest.utils.WebElementActions;
 
 public class RegistrationPage {
 
-    WebElementActions web;
+    private WebElementActions web;
 
     public RegistrationPage(WebDriver driver){
         web = new WebElementActions(driver);

@@ -1,73 +1,27 @@
 package seleniumTest.tests;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import seleniumTest.pages.HomePage;
+import org.testng.annotations.Test;
+import seleniumTest.pages.Global;
 import seleniumTest.pages.ProductDetailsPage;
 import seleniumTest.pages.ProductListingPage;
-import seleniumTest.utils.UiMappingSingleton;
-import seleniumTest.utils.WebElementActions;
 
-import static java.util.concurrent.TimeUnit.SECONDS;
-import static org.junit.Assert.fail;
 
-public class ProductDetailsPageTest {
-    private WebDriver driver;
-    private WebElementActions web;
-    private String baseUrl;
-    private StringBuffer verificationErrors = new StringBuffer();
-    String email = "jhgasdfjhg@dasdadjk.asd";
-    String password = "uytur45";
-    String helloLogText = "success.login.hello.message";
-    String helloRegMessage = "registration.success.message";
-    int random = (int)(1+Math.random()*10000000-1);
+@Test
+public class ProductDetailsPageTest extends LoginFixtures{
 
-    @Before
-    public void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver", "/Users/iproskurnia/Downloads/geckodriver");
-        driver = new FirefoxDriver();
-        web = new WebElementActions(driver);
-        baseUrl = "http://magento-demo.lexiconn.com/";
-        driver.manage().timeouts().implicitlyWait(30, SECONDS);
-        UiMappingSingleton.getInstance();
-    }
-
-    @Test
     public void ProductDetailPageTest() throws Exception {
-        driver.get(baseUrl);
 
-        HomePage homePage = new HomePage(driver);
+        driver.get(baseUrl);
+        Global global = new Global(driver);
         ProductListingPage plp = new ProductListingPage(driver);
         ProductDetailsPage pdp =new ProductDetailsPage(driver);
-        homePage.moveOnMenuItemAndClick();
-        plp.clickOnProductTitle();
+        global.clickTitle();
+        global.moveOnMenuItemAndClick();
+        plp.clickOnProductImage();
         pdp.isTitleCorrect();
         pdp.clickAndSelectColor();
         pdp.clickAndSelectSize();
         pdp.enterQuantity("2");
         pdp.clickAddToCartButton();
-    }
-
-    @After
-    public void tearDown () throws Exception {
-        driver.quit();
-        String verificationErrorString = verificationErrors.toString();
-        if (!"".equals(verificationErrorString)) {
-            fail(verificationErrorString);
-        }
-    }
-
-    private boolean isElementPresent (By by){
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
     }
 }

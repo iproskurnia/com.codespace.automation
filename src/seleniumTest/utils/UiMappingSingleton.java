@@ -1,8 +1,8 @@
 package seleniumTest.utils;
 
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -85,13 +85,9 @@ public class UiMappingSingleton {
                 return By.xpath(locatorValue);
             case "cssSelector":
                 return By.cssSelector(locatorValue);
-            case "id":
-                return By.id(locatorValue);
-            case "className":
-                return By.className(locatorValue);
-
-            default:
-                return By.name(locatorValue);
+            case "id": return By.id(locatorValue);
+            case "className": return By.className(locatorValue);
+            default: return By.name(locatorValue);
         }
     }
 

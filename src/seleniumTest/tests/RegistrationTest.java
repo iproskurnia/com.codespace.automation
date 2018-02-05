@@ -1,51 +1,25 @@
 package seleniumTest.tests;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import seleniumTest.pages.HomePage;
+import org.testng.annotations.Test;
+import seleniumTest.pages.Global;
 import seleniumTest.pages.RegistrationPage;
-import seleniumTest.utils.UiMappingSingleton;
-import seleniumTest.utils.WebElementActions;
 
-import static java.util.concurrent.TimeUnit.SECONDS;
-import static org.junit.Assert.fail;
+@Test
+public class RegistrationTest extends BrowserFixtures{
 
-public class RegistrationTest {
-    private WebDriver driver;
-    private WebElementActions web;
-    private String baseUrl;
-    private StringBuffer verificationErrors = new StringBuffer();
-    String email = "jhgasdfjhg@dasdadjk.asd";
-    String password = "uytur45";
-    String helloLogText = "success.login.hello.message";
     String helloRegMessage = "registration.success.message";
     int random = (int)(1+Math.random()*10000000-1);
-
-    @Before
-    public void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver", "/Users/iproskurnia/Downloads/geckodriver");
-        driver = new FirefoxDriver();
-        web = new WebElementActions(driver);
-        baseUrl = "http://magento-demo.lexiconn.com/";
-        driver.manage().timeouts().implicitlyWait(30, SECONDS);
-        UiMappingSingleton.getInstance();
-    }
 
     //                                              Test registration
     @Test
     public void registrationTest() throws Exception {
         driver.get(baseUrl);
 
-        HomePage homePage = new HomePage(driver);
+        Global global = new Global(driver);
         RegistrationPage registrationPage = new RegistrationPage(driver);
 
-        homePage.clickMyAccountLink();
-        homePage.clickRegisterLink();
+        global.clickMyAccountLink();
+        global.clickRegisterLink();
         registrationPage.enterFirstName("iaroslav");
         registrationPage.enterLastName("proskurnia");
         registrationPage.enterEmail("iaroslav.proskurnia"+random+"@gmail.com");
@@ -56,21 +30,5 @@ public class RegistrationTest {
 
     }
 
-    @After
-    public void tearDown () throws Exception {
-        driver.quit();
-        String verificationErrorString = verificationErrors.toString();
-        if (!"".equals(verificationErrorString)) {
-            fail(verificationErrorString);
-        }
-    }
 
-    private boolean isElementPresent (By by){
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
-    }
 }

@@ -5,7 +5,7 @@ import seleniumTest.utils.WebElementActions;
 
 public class ShoppingCart {
 
-        WebElementActions web;
+    private WebElementActions web;
 
         public ShoppingCart(WebDriver driver) {
 

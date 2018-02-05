@@ -5,7 +5,7 @@ import seleniumTest.utils.WebElementActions;
 
 public class ProductListingPage {
 
-    WebElementActions web;
+    private WebElementActions web;
 
     public ProductListingPage(WebDriver driver) {
         web = new WebElementActions(driver);

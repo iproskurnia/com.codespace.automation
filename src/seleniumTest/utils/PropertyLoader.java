@@ -1,6 +1,6 @@
 package seleniumTest.utils;
 
-import org.junit.Assert;
+import org.testng.Assert;
 
 import java.io.IOException;
 import java.util.Properties;

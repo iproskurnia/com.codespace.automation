@@ -1,47 +1,25 @@
 package seleniumTest.tests;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import seleniumTest.pages.HomePage;
+import org.testng.annotations.Test;
+import seleniumTest.pages.Global;
 import seleniumTest.pages.LoginPage;
-import seleniumTest.utils.UiMappingSingleton;
-import seleniumTest.utils.WebElementActions;
 
-import static java.util.concurrent.TimeUnit.SECONDS;
-import static org.junit.Assert.fail;
+public class LoginTest extends BrowserFixtures{
 
-public class LoginTest {
-
-    private WebDriver driver;
-    private WebElementActions web;
-    private String baseUrl;
-    private StringBuffer verificationErrors = new StringBuffer();
     String email = "jhgasdfjhg@dasdadjk.asd";
     String password = "uytur45";
-    String helloLogText = "success.login.hello.message";
+    String helloLogText = "global.success.login.hello.message";
 
-    @Before
-    public void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver", "/Users/iproskurnia/Downloads/geckodriver");
-        driver = new FirefoxDriver();
-        web = new WebElementActions(driver);
-        baseUrl = "http://magento-demo.lexiconn.com/";
-        driver.manage().timeouts().implicitlyWait(30, SECONDS);
-        UiMappingSingleton.getInstance();
-    }
 
     /**                 Test Login with empty Email and Password fields
      */
     @Test
     public void emptyLoginCredentialsTest() throws Exception {
         driver.get(baseUrl);
-        HomePage homePage = new HomePage(driver);
+        Global global = new Global(driver);
         LoginPage loginPage = new LoginPage(driver);
-        homePage.clickMyAccountLink();
-        homePage.clickLoginLink();
+        global.clickMyAccountLink();
+        global.clickLoginLink();
         loginPage.enterEmail("");
         loginPage.enterPassword("");
         loginPage.clickSubmitButton();
@@ -55,11 +33,10 @@ public class LoginTest {
     @Test
     public void emptyEmailLoginTest() throws Exception {
         driver.get(baseUrl);
-
-        HomePage homePage = new HomePage(driver);
+        Global global = new Global(driver);
         LoginPage loginPage = new LoginPage(driver);
-        homePage.clickMyAccountLink();
-        homePage.clickLoginLink();
+        global.clickMyAccountLink();
+        global.clickLoginLink();
         loginPage.enterEmail("");
         loginPage.enterPassword("testtest");
         loginPage.clickSubmitButton();
@@ -70,11 +47,10 @@ public class LoginTest {
     @Test
     public void emptyPasswordLoginTest() throws Exception {
         driver.get(baseUrl);
-
-        HomePage homePage = new HomePage(driver);
+        Global global = new Global(driver);
         LoginPage loginPage = new LoginPage(driver);
-        homePage.clickMyAccountLink();
-        homePage.clickLoginLink();
+        global.clickMyAccountLink();
+        global.clickLoginLink();
         loginPage.enterEmail("iaroslav.proskurnia@gmail.com");
         loginPage.enterPassword("");
         loginPage.clickSubmitButton();
@@ -85,46 +61,13 @@ public class LoginTest {
     @Test
     public void nonExistUserLoginTest() throws Exception {
         driver.get(baseUrl);
-
-        HomePage homePage = new HomePage(driver);
+        Global global = new Global(driver);
         LoginPage loginPage = new LoginPage(driver);
-        homePage.clickMyAccountLink();
-        homePage.clickLoginLink();
+        global.clickMyAccountLink();
+        global.clickLoginLink();
         loginPage.enterEmail(email);
         loginPage.enterPassword(password);
         loginPage.clickSubmitButton();
         loginPage.getElementText("loginpage.invaliddata");
     }
-
-    //                                              Test email with correct data entered
-    @Test
-    public void successLoginTest() throws Exception {
-        driver.get(baseUrl);
-        HomePage homePage = new HomePage(driver);
-        LoginPage loginPage = new LoginPage(driver);
-        homePage.clickMyAccountLink();
-        homePage.clickLoginLink();
-        loginPage.enterEmail("iaroslav.proskurnia@gmail.com");
-        loginPage.enterPassword("testtest");
-        loginPage.clickSubmitButton();
-        loginPage.getElementText(helloLogText);
-    }
-
-    @After
-    public void tearDown () throws Exception {
-        driver.quit();
-        String verificationErrorString = verificationErrors.toString();
-        if (!"".equals(verificationErrorString)) {
-            fail(verificationErrorString);
-        }
-    }
-//
-//    private boolean isElementPresent (By by){
-//        try {
-//            driver.findElement(by);
-//            return true;
-//        } catch (NoSuchElementException e) {
-//            return false;
-//        }
-//    }
 }
