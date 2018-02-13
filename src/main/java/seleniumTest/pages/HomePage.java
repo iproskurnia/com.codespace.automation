@@ -13,6 +13,21 @@ public class HomePage extends GlobalPageHeader{
         super(dr, HOME_PAGE_URL);
     }
 
+    public void proceedToLoginPage(){
+        clickMyAccountLink();
+        clickLoginLink();
+    }
+
+    public void proceedToRegistrationPage(){
+        clickMyAccountLink();
+        clickRegisterLink();
+    }
+
+    public void logout(){
+        clickMyAccountLink();
+        clickLogOutLink();
+    }
+
 //    public HomePage(WebDriverWrapper dr, String HOME_PAGE_URL) {
 //        super(dr, HOME_PAGE_URL);
 //    }

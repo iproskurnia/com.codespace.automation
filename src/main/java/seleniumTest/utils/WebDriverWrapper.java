@@ -104,8 +104,8 @@ public class WebDriverWrapper implements WebDriver, TakesScreenshot {
                 return ((ChromeDriver) driver).getScreenshotAs(outType);
             } else if (driver instanceof InternetExplorerDriver) {
                 return ((InternetExplorerDriver) driver).getScreenshotAs(outType);
-//            } else if (driver instanceof PhantomJSDriver) {
-//                return ((PhantomJSDriver) driver).getScreenshotAs(outType);
+//            } else if (drivers instanceof PhantomJSDriver) {
+//                return ((PhantomJSDriver) drivers).getScreenshotAs(outType);
             } else
                 return null;
 
