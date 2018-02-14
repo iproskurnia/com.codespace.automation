@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 
 public class ProductDetailsPageTest extends Fixtures {
 
-    @BeforeMethod(enabled = false)
+    @BeforeMethod
     public void methodSetUp()
     {
-        demo.productDetailsPage.openPage();
+        demo.homePage.openPage();
     }
 
     @Test
@@ -17,6 +17,7 @@ public class ProductDetailsPageTest extends Fixtures {
 
         demo.homePage.proceedToPLP();
 //        demo.homePage.moveToElementAndClick();
+        //demo.productListingPage.clickOnProductImage();
         demo.productListingPage.clickOnViewDetails();
         demo.productDetailsPage.isTitleCorrect();
         demo.productDetailsPage.clickAndSelectColor();
