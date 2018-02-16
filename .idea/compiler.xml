@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="com.codespace.automation" target="1.9" />
+      <module name="com.codespace.automation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
