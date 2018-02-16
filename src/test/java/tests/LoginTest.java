@@ -64,6 +64,7 @@ public class LoginTest extends Fixtures {
         demo.loginPage.enterValidLoginCredentials();
         demo.screenShotMaker.takeScreenShot("successLoginTest");
         demo.loginPage.clickSubmitButton();
+        //test
         //Assert.assertTrue(demo.loginPage.isLogInSuccessful(), "Hello, Yarik Pros!");
     }
 }
