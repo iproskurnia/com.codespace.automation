@@ -62,6 +62,7 @@ public class LoginTest extends Fixtures {
     public void successLoginTest() throws Exception {
         demo.homePage.proceedToLoginPage();
         demo.loginPage.enterValidLoginCredentials();
+        demo.screenShotMaker.takeScreenShot("successLoginTest");
         demo.loginPage.clickSubmitButton();
         //Assert.assertTrue(demo.loginPage.isLogInSuccessful(), "Hello, Yarik Pros!");
     }

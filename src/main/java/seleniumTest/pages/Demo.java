@@ -1,5 +1,6 @@
 package seleniumTest.pages;
 
+import seleniumTest.utils.ScreenShotMaker;
 import seleniumTest.utils.WebDriverWrapper;
 import seleniumTest.utils.WebElementsActions;
 
@@ -13,6 +14,7 @@ public class Demo {
     public ProductListingPage productListingPage;
     public RegistrationPage registrationPage;
     public ShoppingCart shoppingCart;
+    public ScreenShotMaker screenShotMaker;
 
     public Demo(WebDriverWrapper driver) {
         
@@ -24,6 +26,7 @@ public class Demo {
         productListingPage = new ProductListingPage(driver);
         registrationPage = new RegistrationPage(driver);
         shoppingCart = new ShoppingCart(driver);
+        screenShotMaker = new ScreenShotMaker(driver);
 
     }
 

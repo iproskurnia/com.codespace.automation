@@ -1,9 +1,7 @@
 package tests;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import seleniumTest.pages.Demo;
 import seleniumTest.utils.UiMappingSingleton;
 import seleniumTest.utils.WebDriverFactory;
@@ -36,10 +34,21 @@ public class Fixtures {
         System.out.println("FIXTURE - BEFORE METHOD END");
     }
 
+    @AfterMethod
+    public void afterMethodTearDown(ITestResult testResult){
+        System.out.println("FIXTURE - AFTER METHOD START");
+        if(!testResult.isSuccess()){
+            demo.screenShotMaker.takeScreenShot(testResult.getMethod().getMethodName());
+        }
+        System.out.println("FIXTURE - AFTER METHOD ENDS");
+
+    }
+
     @AfterClass
     public void tearDown(){
-        System.out.println("FIXTURE - AFTER CLASS END");
+        System.out.println("FIXTURE - AFTER CLASS START");
         driver.quit();
+        System.out.println("FIXTURE - AFTER CLASS END");
     }
 }
 
