@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d223f2-5b5c-4bc6-8551-0eddb2c3796c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/seleniumTest/utils/getCurrentClassAndMethodNames.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogoutTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/LogoutTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ProductDetailsPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/ProductDetailsPageTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ProductListingPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/ProductListingPageTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ShoppingCartTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/ShoppingCartTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,54 +28,8 @@
       <file leaf-file-name="ProductDetailsPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ProductDetailsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScreenShotMaker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/ScreenShotMaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/WebDriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding>
-                <element signature="e#2097#2139#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            <state relative-caret-position="344">
+              <caret line="28" column="77" lean-forward="false" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,40 +40,8 @@
       <file leaf-file-name="Fixtures.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Fixtures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="645">
               <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/pages/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +52,70 @@
       <file leaf-file-name="ProductListingPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ProductListingPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="24" column="77" lean-forward="false" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingCartTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/ShoppingCartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" column="77" lean-forward="false" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="74" column="77" lean-forward="false" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassNameUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/ClassNameUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getCurrentClassAndMethodNames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/getCurrentClassAndMethodNames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogoutTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LogoutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -186,8 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/pages/Automation.java" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/pages/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/utils/WebElementsActions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/ShoppingCartTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/ProductListingPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/UiMapping.properties" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/pages/GlobalPageHeader.java" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/pages/MyAccountPage.java" />
@@ -197,16 +185,19 @@
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/pages/RegistrationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/LogoutTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/utils/WebDriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/ProductDetailsPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/utils/ScreenShotMaker.java" />
         <option value="$PROJECT_DIR$/src/main/java/seleniumTest/pages/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Fixtures.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/seleniumTest/utils/getCurrentClassAndMethodNames.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LogoutTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ProductDetailsPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ProductListingPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ShoppingCartTest.java" />
       </list>
     </option>
   </component>
@@ -323,6 +314,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com.codespace.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.codespace.automation" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.codespace.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.codespace.automation" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshot" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -361,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.successLoginTest">
+  <component name="RunManager" selected="TestNG.LogoutTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -410,7 +412,7 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="LoginTest.nonExistUserLoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.emptyLoginCredentialsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -423,7 +425,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="nonExistUserLoginTest" />
+      <option name="METHOD_NAME" value="emptyLoginCredentialsTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -474,6 +476,38 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="LogoutTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com.codespace.automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogoutTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="ProductDetailsPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -506,39 +540,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ProductDetailsPageTest.ProductDetailPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="com.codespace.automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ProductDetailsPageTest" />
-      <option name="METHOD_NAME" value="ProductDetailPageTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ProductListingPageTest.ProductListPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductListingPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -551,9 +553,9 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ProductListingPageTest" />
-      <option name="METHOD_NAME" value="ProductListPageTest" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -605,17 +607,17 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.ProductDetailsPageTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginTest.nonExistUserLoginTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ProductDetailsPageTest.ProductDetailPageTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ProductListingPageTest.ProductListPageTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.LoginTest.successLoginTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginTest.successLoginTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ProductListingPageTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.LoginTest.emptyLoginCredentialsTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.LogoutTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.LoginTest.successLoginTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ProductDetailsPageTest.ProductDetailPageTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ProductListingPageTest.ProductListPageTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.LoginTest.nonExistUserLoginTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.LogoutTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.LoginTest.emptyLoginCredentialsTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.LoginTest.successLoginTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ProductListingPageTest" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.ProductDetailsPageTest" />
       </list>
     </recent_temporary>
@@ -725,39 +727,46 @@
       <option name="project" value="LOCAL" />
       <updated>1518806589924</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Bck to Java 8">
+      <created>1518810497640</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1518810497640</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_successLoginTest - 2018.02.14 at 21h 38m 07s.xml">
+    <history-entry file="LoginTest_emptyLoginCredentialsTest - 2018.02.19 at 16h 53m 26s.xml">
+      <configuration name="LoginTest.emptyLoginCredentialsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_emptyLoginCredentialsTest - 2018.02.19 at 16h 54m 55s.xml">
+      <configuration name="LoginTest.emptyLoginCredentialsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_emptyLoginCredentialsTest - 2018.02.19 at 16h 56m 31s.xml">
+      <configuration name="LoginTest.emptyLoginCredentialsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_emptyLoginCredentialsTest - 2018.02.19 at 16h 56m 41s.xml">
+      <configuration name="LoginTest.emptyLoginCredentialsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_emptyLoginCredentialsTest - 2018.02.19 at 16h 57m 01s.xml">
+      <configuration name="LoginTest.emptyLoginCredentialsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_emptyLoginCredentialsTest - 2018.02.19 at 16h 57m 40s.xml">
+      <configuration name="LoginTest.emptyLoginCredentialsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_emptyLoginCredentialsTest - 2018.02.19 at 17h 01m 13s.xml">
+      <configuration name="LoginTest.emptyLoginCredentialsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_successLoginTest - 2018.02.19 at 16h 48m 00s.xml">
       <configuration name="LoginTest.successLoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductDetailsPageTest - 2018.02.14 at 20h 38m 43s.xml">
-      <configuration name="ProductDetailsPageTest" configurationId="TestNG" />
+    <history-entry file="LogoutTest - 2018.02.19 at 17h 02m 54s.xml">
+      <configuration name="LogoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductDetailsPageTest_ProductDetailPageTest - 2018.02.14 at 20h 42m 10s.xml">
-      <configuration name="ProductDetailsPageTest.ProductDetailPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductDetailsPageTest_ProductDetailPageTest - 2018.02.14 at 20h 45m 06s.xml">
-      <configuration name="ProductDetailsPageTest.ProductDetailPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductDetailsPageTest_ProductDetailPageTest - 2018.02.14 at 20h 46m 23s.xml">
-      <configuration name="ProductDetailsPageTest.ProductDetailPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductDetailsPageTest_ProductDetailPageTest - 2018.02.14 at 20h 47m 42s.xml">
-      <configuration name="ProductDetailsPageTest.ProductDetailPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductListingPageTest - 2018.02.12 at 23h 29m 11s.xml">
+    <history-entry file="ProductListingPageTest - 2018.02.19 at 16h 43m 13s.xml">
       <configuration name="ProductListingPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductListingPageTest_ProductListPageTest - 2018.02.14 at 20h 43m 36s.xml">
-      <configuration name="ProductListingPageTest.ProductListPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTest - 2018.02.12 at 23h 29m 34s.xml">
-      <configuration name="RegistrationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest - 2018.02.12 at 23h 29m 59s.xml">
-      <configuration name="ShoppingCartTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -775,13 +784,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20327422" sideWeight="0.4914163" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287858" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37380627" sideWeight="0.30972818" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37380627" sideWeight="0.6938484" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37380627" sideWeight="0.6902718" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -868,7 +877,8 @@
     <MESSAGE value="Minimized tests&#10;Updated WebDriverFactory&#10;Installed Selenium Server(GRID)" />
     <MESSAGE value="Updated DPD test" />
     <MESSAGE value="back to Java 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="back to Java 8" />
+    <MESSAGE value="Bck to Java 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bck to Java 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -970,22 +980,6 @@ demo.homePage.clickMyAccountLink();</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Objects.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Properties.java" />
-    <entry file="file://$PROJECT_DIR$/target/test-classes/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/tests/LoginTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1082,14 +1076,6 @@ demo.homePage.clickMyAccountLink();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/ClassNameUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1176,24 +1162,6 @@ demo.homePage.clickMyAccountLink();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ShoppingCartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/pages/ProductDetailsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/UiMapping.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1222,44 +1190,6 @@ demo.homePage.clickMyAccountLink();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LogoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ProductListingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ProductDetailsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -1270,28 +1200,10 @@ demo.homePage.clickMyAccountLink();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/pages/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/ScreenShotMaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1306,22 +1218,43 @@ demo.homePage.clickMyAccountLink();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshot/successLoginTest.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+          <caret line="86" column="40" lean-forward="false" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/pages/ProductDetailsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/pages/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/Fixtures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="645">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1329,13 +1262,91 @@ demo.homePage.clickMyAccountLink();</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/successLoginTest.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/invoke0.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/&lt;init&gt;.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/ClassNameUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seleniumTest/utils/getCurrentClassAndMethodNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="999">
+          <caret line="74" column="77" lean-forward="false" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/LogoutTest.successLogoutTest.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LogoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ProductDetailsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="28" column="77" lean-forward="false" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ProductListingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="77" lean-forward="false" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ShoppingCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="77" lean-forward="false" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>

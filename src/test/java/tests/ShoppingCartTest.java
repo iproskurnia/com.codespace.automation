@@ -3,21 +3,20 @@ package tests;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static seleniumTest.utils.getCurrentClassAndMethodNames.getCurrentClassAndMethodNames;
+
 public class ShoppingCartTest extends Fixtures {
 
     @BeforeMethod
     public void methodSetUp()
     {
-        demo.homePage.openPage();
+        demo.productDetailsPage.openPage();
     }
 
     //                           Add product To Cart ->>> Remove product from the Cart
     @Test
     public void AddToCartTest() throws Exception {
 
-        demo.homePage.proceedToPLP();
-        demo.productListingPage.clickOnProductImage();
-        //demo.productListingPage.clickOnViewDetails();
         demo.productDetailsPage.clickAndSelectColor();
         demo.productDetailsPage.clickAndSelectSize();
         demo.productDetailsPage.enterQuantity("2");
@@ -25,7 +24,8 @@ public class ShoppingCartTest extends Fixtures {
 
         demo.shoppingCart.isProductAddedToCart();
         demo.shoppingCart.isSubtotalCorrect();
-        demo.shoppingCart.clickRemoveIcon();
-        demo.shoppingCart.isCartEmpty();
+        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
+//        demo.shoppingCart.clickRemoveIcon();
+//        demo.shoppingCart.isCartEmpty();
     }
 }
