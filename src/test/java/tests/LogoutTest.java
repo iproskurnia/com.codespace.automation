@@ -3,8 +3,6 @@ package tests;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static seleniumTest.utils.getCurrentClassAndMethodNames.getCurrentClassAndMethodNames;
-
 public class LogoutTest extends Fixtures {
 
     @BeforeMethod
@@ -22,7 +20,6 @@ public class LogoutTest extends Fixtures {
         //demo.homePage.proceedToLoginPage();
         demo.loginPage.successLogin();
         demo.homePage.logout();
-        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
         //Assert.assertTrue(demo.myAccountPage.isLogInSuccessful(), "You are now logged out");
     }
 }

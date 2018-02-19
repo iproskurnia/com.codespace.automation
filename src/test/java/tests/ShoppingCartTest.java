@@ -3,8 +3,6 @@ package tests;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static seleniumTest.utils.getCurrentClassAndMethodNames.getCurrentClassAndMethodNames;
-
 public class ShoppingCartTest extends Fixtures {
 
     @BeforeMethod
@@ -24,7 +22,6 @@ public class ShoppingCartTest extends Fixtures {
 
         demo.shoppingCart.isProductAddedToCart();
         demo.shoppingCart.isSubtotalCorrect();
-        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
 //        demo.shoppingCart.clickRemoveIcon();
 //        demo.shoppingCart.isCartEmpty();
     }

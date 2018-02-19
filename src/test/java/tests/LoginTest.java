@@ -4,8 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static seleniumTest.utils.getCurrentClassAndMethodNames.getCurrentClassAndMethodNames;
-
 public class LoginTest extends Fixtures {
 
     //String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
@@ -26,7 +24,6 @@ public class LoginTest extends Fixtures {
         demo.loginPage.enterEmail("");
         demo.loginPage.enterPassword("");
         demo.loginPage.clickSubmitButton();
-        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
         //demo.loginPage.getElementText("loginpage.emptyemail");
         Assert.assertTrue(demo.loginPage.isLogInWithEmptyCredentialsFailed(),"This is a required field.");
     }
@@ -41,7 +38,6 @@ public class LoginTest extends Fixtures {
         demo.loginPage.enterPassword("testtest");
         demo.loginPage.clickSubmitButton();
         demo.loginPage.getElementText("loginpage.emptyemail");
-        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
         Assert.assertTrue(demo.loginPage.isLogInWithEmptyCredentialsFailed(),"loginpage.emptyemail");
 
     }
@@ -52,7 +48,6 @@ public class LoginTest extends Fixtures {
         demo.loginPage.enterEmail("iaroslav.proskurnia@gmail.com");
         demo.loginPage.enterPassword("");
         demo.loginPage.clickSubmitButton();
-        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
         Assert.assertTrue(true,"loginpage.emptypass");
     }
 
@@ -62,7 +57,6 @@ public class LoginTest extends Fixtures {
         //demo.homePage.proceedToLoginPage();
         demo.loginPage.enterInvalidLoginCredentials();
         demo.loginPage.clickSubmitButton();
-        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
         //Assert.assertTrue(demo.myAccountPage.isLogInSuccessful(), "Invalid login or password.");
     }
 
@@ -72,8 +66,6 @@ public class LoginTest extends Fixtures {
         //demo.homePage.proceedToLoginPage();
         demo.loginPage.enterValidLoginCredentials();
         demo.loginPage.clickSubmitButton();
-        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
-        //test
         //Assert.assertTrue(demo.loginPage.isLogInSuccessful(), "Hello, Yarik Pros!");
     }
 }

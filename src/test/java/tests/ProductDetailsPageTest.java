@@ -3,8 +3,6 @@ package tests;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static seleniumTest.utils.getCurrentClassAndMethodNames.getCurrentClassAndMethodNames;
-
 
 public class ProductDetailsPageTest extends Fixtures {
 
@@ -26,6 +24,5 @@ public class ProductDetailsPageTest extends Fixtures {
         demo.productDetailsPage.clickAndSelectSize();
         demo.productDetailsPage.enterQuantity("2");
         demo.productDetailsPage.clickAddToCartButton();
-        demo.screenShotMaker.takeScreenShot(getCurrentClassAndMethodNames());
     }
 }
