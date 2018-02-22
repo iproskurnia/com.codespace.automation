@@ -22,7 +22,13 @@ public class ShoppingCartTest extends Fixtures {
 
         demo.shoppingCart.isProductAddedToCart();
         demo.shoppingCart.isSubtotalCorrect();
-//        demo.shoppingCart.clickRemoveIcon();
-//        demo.shoppingCart.isCartEmpty();
+    }
+
+    @Test
+    public void RemoveItemsFromCartTest() throws Exception {
+
+        demo.productDetailsPage.addProductToCart();
+        demo.shoppingCart.clickRemoveIcon();
+        demo.shoppingCart.isCartEmpty();
     }
 }

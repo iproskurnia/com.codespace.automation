@@ -33,4 +33,6 @@ public class ShoppingCart extends GlobalPageHeader{
             web.isElementPresent("cart.empty");
             web.isElementPresent("cart.empty2");
      }
+
+
 }

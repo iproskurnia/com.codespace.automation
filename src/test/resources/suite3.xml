@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite3" verbose="1" >
+    <test name="Shopping Cart and Checkout" >
+        <packages>
+            <package name="test.java.tests"/>
+        </packages>
+        <classes>
+            <class name="tests.ShoppingCartTest"/>
+        </classes>
+    </test>
+</suite>

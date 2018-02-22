@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite2" verbose="1" >
+    <test name="PLP and PDP" >
+        <packages>
+            <package name="test.java.tests"/>
+        </packages>
+        <classes>
+            <class name="tests.ProductListingPageTest"/>
+            <class name="tests.ProductDetailsPageTest"/>
+        </classes>
+    </test>
+</suite>

@@ -18,7 +18,7 @@ public class LoginTest extends Fixtures {
     /**                 Test Login with empty Email and Password fields
      */
 
-    @Test(priority = 2)
+    @Test (groups = { "Negative" })
     public void emptyLoginCredentialsTest() throws Exception {
         //demo.homePage.proceedToLoginPage();
         demo.loginPage.enterEmail("");
@@ -31,7 +31,7 @@ public class LoginTest extends Fixtures {
     /**          Test login with an empty Email field
      *
      */
-    @Test(priority = 3)
+    @Test(groups = { "Negative" })
     public void emptyEmailLoginTest() throws Exception {
         //demo.homePage.proceedToLoginPage();
         demo.loginPage.enterEmail("");
@@ -42,7 +42,7 @@ public class LoginTest extends Fixtures {
 
     }
     //                                               Test login with an empty Password field
-    @Test(priority = 1)
+    @Test(groups = { "Negative" })
     public void emptyPasswordLoginTest() throws Exception {
        // demo.homePage.proceedToLoginPage();
         demo.loginPage.enterEmail("iaroslav.proskurnia@gmail.com");
@@ -52,7 +52,7 @@ public class LoginTest extends Fixtures {
     }
 
     //                                              Test login with incorrect email and password
-    @Test(priority = 4)
+    @Test(groups = { "Negative" })
     public void nonExistUserLoginTest() throws Exception {
         //demo.homePage.proceedToLoginPage();
         demo.loginPage.enterInvalidLoginCredentials();
@@ -61,7 +61,7 @@ public class LoginTest extends Fixtures {
     }
 
     //                                              Test email with correct data entered
-    @Test
+    @Test(groups = { "Positive" })
     public void successLoginTest() throws Exception {
         //demo.homePage.proceedToLoginPage();
         demo.loginPage.enterValidLoginCredentials();

@@ -40,4 +40,12 @@ public class ProductDetailsPage extends GlobalPageHeader{
 
         web.clickButton("pdp.addToCart.button");
     }
+
+    public void addProductToCart(){
+
+        clickAndSelectColor();
+        clickAndSelectSize();
+        clickAddToCartButton();
+    }
+
 }

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite1" verbose="1" >
+    <packages>
+        <package name="test.java.tests.LoginTest"/>
+    </packages>
+    <test name="Registration" >
+        <classes>
+            <class name="tests.RegistrationTest"/>
+        </classes>
+    </test>
+    <test name="Login" >
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Logout" >
+        <classes>
+            <class name="tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
